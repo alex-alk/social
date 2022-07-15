@@ -16,7 +16,7 @@ const store=createStore({
 
         },
         imagepath(){
-            return 'http://localhost:8000/images/'
+            return '/images/'
         }
     }
 });
