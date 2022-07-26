@@ -1,3 +1,4 @@
+# Social network demo website with laravel and vuejs
 Use php artisan passport:keys if needed
 
 ## Steps taken to configure this project:
