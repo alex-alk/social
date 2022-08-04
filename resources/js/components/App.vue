@@ -1,12 +1,11 @@
 <template>
-    <div class="flex flex-col flex-1 h-screen overflow-y-hidden">
-
+    <div class="flex flex-col flex-1 h-screen">
         <Nav />
 
-        <div class="flex overflow-y-hidden flex-1">
+        <div class="flex flex-1">
             <Sidebar />
 
-            <div class="overflow-x-hidden w-2/3">
+            <div class="overflow-x-hidden w-100 items-center">
                 <router-view :key="$route.fullPath"></router-view>
             </div>
         </div>
@@ -14,19 +13,17 @@
 </template>
 
 <script>
-    import Nav from './Nav';
-    import Sidebar from './Sidebar';
+import Nav from "./Nav";
+import Sidebar from "./Sidebar";
 
-    export default {
-        name: "App",
+export default {
+    name: "App",
 
-        components: {
-            Nav,
-            Sidebar
-        }
-    }
+    components: {
+        Nav,
+        Sidebar,
+    },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

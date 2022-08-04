@@ -63,7 +63,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col items-center py-4">
+        <div class="flex flex-col py-4 max-w-xl mx-auto">
             <NewPost v-if="false" />
             <Post
                 v-if="userposts"
