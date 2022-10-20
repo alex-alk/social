@@ -52,8 +52,9 @@
                 />
             </router-link>
         </div>
-        <div class="w-1/3 flex justify-end cursor-pointer" title="Logout">
+        <div class="w-1/3 flex justify-end" title="Logout">
             <svg
+                class="cursor-pointer"
                 width="24"
                 height="24"
                 xmlns="http://www.w3.org/2000/svg"
